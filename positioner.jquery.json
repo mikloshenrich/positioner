@@ -10,9 +10,9 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/mikloshenrich/jQuery-Positioner.git"
+		"url": "https://github.com/mikloshenrich/positioner.git"
 	},
-	"bugs": "https://github.com/mikloshenrich/jQuery-Positioner/issues",
+	"bugs": "https://github.com/mikloshenrich/positioner/issues",
 	"dependencies": {
 		"jquery": ">=1.11.1"
 	},
