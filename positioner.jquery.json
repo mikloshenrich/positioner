@@ -2,10 +2,7 @@
 	"name": "positioner",
 	"title": "jQuery Positioner",
 	"description": "Subsequent placement of an item based on the height of a selected content area related to the height of the browser window.",
-	"version": "0.0.1",
-	"homepage": "",
-	"demo": "",
-	"docs": "",
+	"version": "0.0.2",
 	"author": {
 		"name": "Grávuj Miklós Henrich",
 		"email": "miklos.henrich@gmail.com",
@@ -19,7 +16,7 @@
 	"dependencies": {
 		"jquery": ">=1.11.1"
 	},
-	"keywords": ["window","ui","ajax","html5","animation","jquery","height","responsive","resize"],
+	"keywords": ["window","ui","html5","jquery","height","responsive","resize","plugin"],
 	"licenses": [
 		{
 			"type": "MIT",
