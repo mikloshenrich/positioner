@@ -1,0 +1,19 @@
+@mixin border-radius( $radius ) {
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	border-radius: $radius;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+}
+
+@mixin height( $height: 50px ) { height: $height }
+@mixin line-height( $line-height: 50px ) { line-height: $line-height }
+@mixin text-align( $text-align: center ) { text-align: $text-align }
+
+@mixin offset( $top: 0, $right: 0, $bottom: 0, $left: 0 ) {
+	@if ( $top ) { top: $top }
+	@if ( $right ) { right: $right }
+	@if ( $bottom ) { bottom: $bottom }
+	@if ( $left ) { left: $left }
+}

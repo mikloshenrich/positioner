@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: Arial;
+  font-size: 14px;
+  color: #333333; }
+
+.container {
+  width: 980px;
+  margin: 0 auto;
+  display: block; }
+  .container .header {
+    height: 50px; }
+    .container .header h2 {
+      text-align: center;
+      line-height: 50px; }
+    .container .header.custom2 {
+      background-color: red; }
+  .container .content {
+    padding: 15px 0; }
+    .container .content .lorem p {
+      margin: 0 0 15px;
+      line-height: 18px; }
+  .container .action {
+    height: 50px;
+    line-height: 50px;
+    text-align: center; }
+    .container .action button {
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+      -moz-background-clip: padding;
+      -webkit-background-clip: padding-box;
+      background-clip: padding-box;
+      background-color: grey;
+      height: 25px;
+      line-height: 25px;
+      text-align: center;
+      border: 1px solid black;
+      width: 150px;
+      color: #ffffff;
+      cursor: pointer; }
+  .container .footer {
+    height: 50px;
+    background-color: blue; }
+    .container .footer.custom {
+      position: fixed;
+      margin: 0 auto;
+      right: 0;
+      bottom: 0;
+      left: 0; }
+    .container .footer p {
+      color: #ffffff;
+      text-align: center;
+      line-height: 50px; }
+
+/*# sourceMappingURL=styles.css.map */
